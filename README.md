@@ -208,4 +208,4 @@ Mean_chrF=...
 
 ## Contact
 
-Ali Gebeşçe, agebesce17@ku.edu.tr [mailto:agebesce17@ku.edu.tr]
+Ali Gebeşçe, agebesce17@ku.edu.tr
