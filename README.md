@@ -1,4 +1,4 @@
-# SIGTURK 2026 — Shared Task
+# SIGTURK 2026 — Shared Task: Evaluation and Development Data
 
 This repository provides a **command‑line evaluator** for the SIGTURK 2026 shared task and Development Data. It supports three subtasks on paired JSON files containing **golden set** annotations and **system predictions**:
 
