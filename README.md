@@ -17,8 +17,11 @@ sigturk2026_sharedtask/
 ├─ dev_data/
 │  ├─ subtask_1.json
 │  ├─ subtask_2.json
-│  └─ subtask_3.json
+│  ├─ subtask_3.json
+│  └─ terimler_org_data.json
 ├─ evaluation/
+│  ├─ requirements.txt
+│  ├─ eval.py
 │  ├─ subtask1_term_detection/
 │  │  ├─ golden_set.json
 │  │  └─ predictions.json
@@ -28,8 +31,6 @@ sigturk2026_sharedtask/
 │  └─ subtask3_end2end/
 │     ├─ golden_set.json
 │     └─ predictions.json
-├─ eval.py
-├─ requirements.txt
 └─ README.md
 ```
 
