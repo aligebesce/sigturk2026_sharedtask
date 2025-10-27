@@ -1,0 +1,50 @@
+[{
+    "paragraph_id": 1,
+    "sentence_id": 1,
+    "source_paragraph": "Randomness is one of the most important parts of cryptography because key generation and the key itself depend on random values. In literature, there exist statistical randomness tests and test suites to evaluate the randomness of the cryptographic algorithm. Although there exist randomness tests, there is no mathematical evidence to prove that a sequence or a number is random. Therefore, it is vital to choose tests in the test suites due to independency and coverage of the tests used in the suites. Sensitivity of these tests to nonnandom data is also important. The tests should be classified to determine that tests are independent and wide.",
+    "target_paragraph": "Rasgelelik kriptografinin en önemli kısımlarından biridir çünkü, anahtar üretimi ve anahtarın kendisi rastgele değerlere bağlıdır. Literatürde birçok istatistiksel rastgelelik testi ve bu testleri içeren test paketleri yer almaktadır. Buna rağmen bir dizinin veya bir sayının rastgele olduğunu gösterecek hiçbir matematiksel kanıt yoktur. Bundan dolayı bir istatistiksel test paketi oluştururken bu testlerin seçimi hayati bir önem taşımaktadır. Ayrıca bu testlerin rastgele olmayan verilere karşı duyarlılığı da çok önemlidir. İstatistiksel testlerin birbirinden bağımsız olduğunu ve kapsamının geniş olduğunu belirlemek için sınıflandırılması gerekmektedir.",
+    "source_sentence": "Randomness is one of the most important parts of cryptography because key generation and the key itself depend on random values.",
+    "target_sentence": "Rastgelelik kriptografinin en önemli kısımlarından biridir çünkü, anahtar üretimi ve anahtarın kendisi rastgele değerlere bağlıdır.",
+    "term_pairs": [
+        {
+            "en": "Randomness",
+            "en_start": 0,
+            "en_end": 10,
+            "tr": "Rastgelelik",
+            "tr_start": 0,
+            "tr_end": 11
+        },
+        {
+            "en": "cryptography",
+            "en_start": 49,
+            "en_end": 61,
+            "tr": "kriptografinin",
+            "tr_start": 12,
+            "tr_end": 26
+        },
+        {
+            "en": "key generation",
+            "en_start": 70,
+            "en_end": 84,
+            "tr": "anahtar üretimi",
+            "tr_start": 66,
+            "tr_end": 81
+        },
+        {
+            "en": "key",
+            "en_start": 93,
+            "en_end": 96,
+            "tr": "anahtarın",
+            "tr_start": 85,
+            "tr_end": 94
+        },
+        {
+            "en": "random values",
+            "en_start": 114,
+            "en_end": 127,
+            "tr": "rastgele değerlere",
+            "tr_start": 103,
+            "tr_end": 121
+        }
+    ]
+}]

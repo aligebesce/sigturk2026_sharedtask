@@ -1,0 +1,30 @@
+[{
+    "paragraph_id": 1,
+    "sentence_id": 1,
+    "term_pairs": [
+        {
+            "en": "Randomness",
+            "en_start": 0,
+            "en_end": 10,
+            "tr": "Rastgelelik",
+            "tr_start": 0,
+            "tr_end": 11
+        },
+        {
+            "en": "cryptography",
+            "en_start": 49,
+            "en_end": 61,
+            "tr": "kriptografinin",
+            "tr_start": 12,
+            "tr_end": 26
+        },
+        {
+            "en": "key generation",
+            "en_start": 70,
+            "en_end": 84,
+            "tr": "anahtar üretimi",
+            "tr_start": 66,
+            "tr_end": 81
+        }
+    ]
+}]

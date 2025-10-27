@@ -1,0 +1,15 @@
+    {
+        "paragraph_id": 2,
+        "sentence_id": 5,
+        "term_pairs": [
+            {
+                "en": "free-software",
+                "en_start": 112,
+                "en_end": 125,
+                "tr": "özgür yazılım",
+                "correction": "açık yazılım",
+                "tr_start": 45,
+                "tr_end": 58
+            }
+        ]
+    }

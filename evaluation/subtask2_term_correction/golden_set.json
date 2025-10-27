@@ -1,0 +1,30 @@
+    {
+        "paragraph_id": 2,
+        "sentence_id": 5,
+        "source_paragraph": "In the early days of computing, programmers and developers shared software in order to learn from each other and evolve the field of computing. Eventually, the open-source notion moved to the way side of commercialization of software in the years 1970–1980. However, academics still often developed software collaboratively. For example, donald knuth in 1979 with the tex typesetting system or richard stallman in 1983 with the gnu operating system. In 1997, eric raymond published the cathedral and the bazaar, a reflective analysis of the hacker community and free-software principles. The paper received significant attention in early 1998, and was one factor in motivating netscape communications corporation to release their popular netscape communicator internet suite as free software.",
+        "target_paragraph": "Bilgi işlemin ilk günlerinde, programcılar ve geliştiriciler, birbirlerinden öğrenmek ve bilgi işlem alanını geliştirmek için yazılımları paylaştılar. Sonunda, açık kaynak kavramı 1970-1980 yıllarında yazılımın ticarileştirilmesinin tarafına geçti. Ancak, akademisyenler yine de çoğu zaman işbirliği içinde yazılım geliştirdiler. Örneğin, tex dizgi sistemi  ile 1979'da donald knuth veya gnu işletim sistemi ile 1983'te richard stallman . 1997'de eric raymond, hacker topluluğunun ve özgür yazılım ilkelerinin yansıtıcı bir analizi olan the cathedral and the bazaar'ı yayınladı. Makale, 1998'in başlarında önemli bir ilgi gördü ve netscape communications corporation'ı popüler netscape communicator internet paketini özgür yazılım olarak yayınlamaya motive eden bir faktördü.",
+        "source_sentence": "In 1997, eric raymond published the cathedral and the bazaar, a reflective analysis of the hacker community and free-software principles.",
+        "target_sentence": "1997'de eric raymond, hacker topluluğunun ve özgür yazılım ilkelerinin yansıtıcı bir analizi olan the cathedral and the bazaar'ı yayınladı.",
+        "term_pairs": [
+            {
+                "en": "hacker community",
+                "hint": "bilgisayar korsanı",
+                "en_start": 91,
+                "en_end": 107,
+                "tr": "hacker topluluğunun",
+                "correction": "bilgisayar korsanı topluluğunun",
+                "tr_start": 22,
+                "tr_end": 41
+            },
+            {
+                "en": "free-software",
+                "hint": "açık yazılım",
+                "en_start": 112,
+                "en_end": 125,
+                "tr": "özgür yazılım",
+                "correction": "açık yazılım",
+                "tr_start": 45,
+                "tr_end": 58
+            }
+        ]
+    }
