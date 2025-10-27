@@ -209,4 +209,4 @@ Mean_chrF=...
 
 ## Contact
 
-Ali Gebeşçe, agebesce17@ku.edu.tr
+For any questions regarding the shared task, please contact: sigturk2026.sharedtask@gmail.com
