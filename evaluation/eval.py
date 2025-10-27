@@ -37,9 +37,12 @@ def as_list(x: Any) -> List[Dict[str, Any]]:
 
 # ----------------- Normalization -----------------
 def _norm_text(x: Any) -> str:
-    """NFKC normalize, strip, lower, collapse spaces."""
-    if x is None: return ""
+    """NFKC normalize, unify dashes to '-', strip, lower, collapse spaces."""
+    if x is None:
+        return ""
     s = unicodedata.normalize("NFKC", str(x))
+    # unify common dash-like characters to ASCII hyphen-minus
+    s = re.sub(r"[\u2010\u2011\u2012\u2013\u2014\u2212\u2043\uFE58\uFE63\uFF0D]", "-", s)
     s = s.strip().lower()
     s = re.sub(r"\s+", " ", s)
     return s
@@ -53,7 +56,8 @@ def _norm_int(x: Any) -> Optional[int]:
 
 
 # ----------------- Tokenization -----------------
-WORD_RE = re.compile(r"\w+", flags=re.UNICODE)
+# Word tokens that may contain internal hyphens (e.g., "state-of-the-art")
+WORD_RE = re.compile(r"\w+(?:-\w+)*", flags=re.UNICODE)
 
 
 def tokenize_with_spans(text: str) -> List[Tuple[str, int, int]]:
